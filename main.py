@@ -294,7 +294,7 @@ class Stage:
 				next_link.config(text="タイトルへ戻る")
 		self.memframe.place(relx=0, rely=0, **window_size)
 
-if not("REQUEST_METHOD" in os.environ and os.environ["REQUEST_METHOD"]):
+if __name__ == "__main__" and not("REQUEST_METHOD" in os.environ and os.environ["REQUEST_METHOD"]):
 	root = tk.Tk()
 	root.title("-.-. --.-")
 	try:
