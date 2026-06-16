@@ -220,7 +220,7 @@ class Stage:
 			description = tk.Label(self.memframe, **default_style, bg=self.bg, fg="#fff", font=(ff, 20))
 			copy_right = tk.Label(self.memframe, text="© mikasa 2026", **default_style, bg=self.bg, fg="#fff", font=(ff, 20))
 			links = []
-			link_opt = ["スタート", "せつめい", "おしまい"]
+			link_opt = ["スタート", "ひんと", "おしまい"]
 			link_key = ["Return", "Space", "quit"]
 			for i in range(3):
 				links.append(tk.Label(self.memframe, text=link_opt[i], **default_style, bg=self.bg, fg="#15b", font=(ff, 30)))
